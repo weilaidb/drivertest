@@ -1,0 +1,1 @@
+cmd_/home/weilai/work/drivertest/gpio/gpio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/weilai/work/drivertest/gpio/gpio.ko /home/weilai/work/drivertest/gpio/gpio.o /home/weilai/work/drivertest/gpio/gpio.mod.o ;  true
